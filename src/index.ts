@@ -1,6 +1,9 @@
 import { useEffect, MutableRefObject, useState, useCallback, useRef } from 'react'
-import { Command, Option, UpdateCommand, ButtonCommanderReturnType } from './types'
+import { Command, Option, UpdateCommand, OsShortcuts, ButtonCommanderReturnType } from './types'
 import { matchCommand, getShortcut } from './utils'
+
+export interface ShortcutCommand extends Command {}
+export interface ShortcutOsShortcuts extends OsShortcuts {}
 
 export const useShortcut = (
   ref?: MutableRefObject<any>,
