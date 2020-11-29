@@ -50,7 +50,7 @@ const Example = () => {
 };
 ```
 
-## [Live Demo](https://shortcut-commander.vercel.app/)
+## [Live Demo](https://mmmy.github.io/react-shortcut-hook/)
 
 ## Found this project useful? ❤️
 
