@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-shortcut-hook/static/css/main.a0ffaff8.chunk.css",
+    "main.js": "/react-shortcut-hook/static/js/main.268b2189.chunk.js",
+    "main.js.map": "/react-shortcut-hook/static/js/main.268b2189.chunk.js.map",
+    "runtime-main.js": "/react-shortcut-hook/static/js/runtime-main.10744418.js",
+    "runtime-main.js.map": "/react-shortcut-hook/static/js/runtime-main.10744418.js.map",
+    "static/js/2.4045adcb.chunk.js": "/react-shortcut-hook/static/js/2.4045adcb.chunk.js",
+    "static/js/2.4045adcb.chunk.js.map": "/react-shortcut-hook/static/js/2.4045adcb.chunk.js.map",
+    "index.html": "/react-shortcut-hook/index.html",
+    "precache-manifest.34ca9c02d1ba6946880eb35a55a9ba00.js": "/react-shortcut-hook/precache-manifest.34ca9c02d1ba6946880eb35a55a9ba00.js",
+    "service-worker.js": "/react-shortcut-hook/service-worker.js",
+    "static/css/main.a0ffaff8.chunk.css.map": "/react-shortcut-hook/static/css/main.a0ffaff8.chunk.css.map",
+    "static/js/2.4045adcb.chunk.js.LICENSE.txt": "/react-shortcut-hook/static/js/2.4045adcb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10744418.js",
+    "static/js/2.4045adcb.chunk.js",
+    "static/css/main.a0ffaff8.chunk.css",
+    "static/js/main.268b2189.chunk.js"
+  ]
+}
