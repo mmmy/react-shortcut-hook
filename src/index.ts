@@ -136,11 +136,12 @@ export const useShortcut = (
         ref.current.removeEventListener('keydown', keyDownListener)
         ref.current.removeEventListener('keyup', keyUpListener)
       } else if (globalListenerRegisteredRef.current && commandSetRef.current.size === 0) {
+        globalListenerRegisteredRef.current = false
         document.body.removeEventListener('keydown', keyDownListener)
         document.body.removeEventListener('keyup', keyUpListener)
       }
     }
-  }, [])
+  }, [ref && ref.current, commands, ])
 
   const getAll = useCallback(() => Array.from(commandSetRef.current.values()), [])
 
